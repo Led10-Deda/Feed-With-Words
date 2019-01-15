@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #EEF;
-	user-select: none;
+    user-select: none;
 }
 #header {
     position: relative;
@@ -30,17 +30,6 @@ body {
     color: #12A;
     text-shadow: 1px 1px 0px darkblue;
 }
-#footer {
-	padding: 2% 0%;
-	width: 100%;
-	background: linear-gradient(#005, #118, #22C);
-	color: white;
-	box-shadow: 0px 2px 2px grey;
-	text-align: center;
-	font-size: 1.5em;
-	font-style: italic;
-	font-weight: 900;
-}
 #firstpage {
     background: radial-gradient(#FEF, #EDE, #838);
     padding: 5%;
@@ -48,9 +37,9 @@ body {
     z-index: 1;
 }
 #paper {
-	border: 1px groove grey;
-	padding: 2%;
-	box-shadow: 3px 3px 2px grey;
+    border: 1px groove grey;
+    padding: 2%;
+    box-shadow: 3px 3px 2px grey;
 }
 #stgame {
     margin: auto;
@@ -63,7 +52,7 @@ body {
     text-shadow: 2px 2px 2px black;
     background: linear-gradient(deepSkyBlue, blue);
     box-shadow: 3px 3px 2px darkblue;
-	cursor: pointer;
+    cursor: pointer;
 }
 #stgame:active {
     background: linear-gradient(blue, deepSkyBlue);
@@ -116,10 +105,10 @@ li .a {
     margin: 4%;
     padding: 2.5% 0%;
     text-align: center;
-	font-size: 0.9em;
+    font-size: 0.9em;
     font-weight: 900;
     text-shadow: 1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
-	cursor: pointer;
+    cursor: pointer;
 }
 #letters span:active {
     box-shadow: 0px 0px 0px white;
@@ -143,7 +132,7 @@ li .a {
     text-align: center;
     font-size: 1.4em;
     font-weight: 900;
-	cursor: pointer;
+    cursor: pointer;
 }
 #del {
     background: linear-gradient(#F55, #B11);
@@ -168,19 +157,19 @@ li .a {
     margin: auto;
     margin-top: 10%;
     border-radius: 30%;
-	text-align: center;
-	font-size: 1.3em;
-	text-shadow: 2px 2px 2px white;
-	padding-top: 10%;
-	cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px white;
+    padding-top: 10%;
+    cursor: pointer;
 }
 #pot:active {
-	border: 2px outset grey;
-	background-color: black;
+    border: 2px outset grey;
+    background-color: black;
 }
 /***************************EXPERIMENT**************************/
 #youwon {
-	opacity: 0.8;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     display: none;
@@ -196,8 +185,8 @@ li .a {
     padding: 2%;
     border-radius: 20%;
     font-weight: 900;
-	cursor: pointer;
-	opacity: 1;
+    cursor: pointer;
+    opacity: 1;
 }
 #next:active {
     background: linear-gradient(#999, #EEE);
